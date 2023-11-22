@@ -8,17 +8,18 @@
     "mobile"
   ],
   "scripts": {
+    "dev:ios": "ionic cap run ios -l --external --open",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@capacitor/core": "latest",
+    "@capacitor/android": "^5.0.0",
     "@capacitor/camera": "latest",
-    "@capacitor/splash-screen": "latest",
+    "@capacitor/core": "latest",
     "@capacitor/geolocation": "file:..",
-    "@capacitor/ios": "^5.0.0",
-    "@capacitor/android": "^5.0.0"
+    "@capacitor/ios": "5.5.1",
+    "@capacitor/splash-screen": "latest"
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
